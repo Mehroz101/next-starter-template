@@ -77,11 +77,7 @@ export default function LoginPage() {
           {errors.root && (
             <p className="text-red-500 text-sm">{errors.root.message}</p>
           )}
-          <Button
-            type="submit"
-            className="w-full"
-            isLoading={isLoading}
-          >
+          <Button type="submit" className="w-full" isLoading={isLoading}>
             Sign in
           </Button>
         </form>

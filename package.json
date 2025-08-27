@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev --turbo",
+    "build": "next build --turbo",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
@@ -39,5 +39,10 @@
     "tailwindcss": "^4",
     "typescript": "^5.9.2",
     "zod": "^3.25.76"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "@prisma/client": "^6.15.0",
+    "lucide-react": "^0.542.0"
   }
 }

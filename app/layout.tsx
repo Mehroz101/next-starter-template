@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 import { Inter } from 'next/font/google';
-import { ReduxProvider } from '@/providers/ReduxProvider';
-import { TanstackProvider } from '@/providers/TanstackProvider';
-import { ToastProvider } from '@/providers/ToastProvider';
+import { ReduxProvider } from '@/redux/ReduxProvider';
+import { TanstackProvider } from '@/redux/TanstackProvider';
+import { ToastProvider } from '@/redux/ToastProvider';
 import { Layout } from '@/components/layout/Layout';
 import '@/styles/globals.css';
 
